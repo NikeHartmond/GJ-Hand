@@ -66,3 +66,17 @@ p {
 .work-images:not(:has(img)) {
   display: none;
 }
+
+.slider {
+  max-width: 60rem;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.slider img[hidden] {
+  display: none;
+}
+
+.slider-counter {
+  margin: 0 0 0.5rem;
+}
