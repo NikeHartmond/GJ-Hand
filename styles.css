@@ -1,3 +1,7 @@
+:root {
+  --font: Arial, Helvetica, sans-serif;
+}
+
 html,
 body {
   margin: 0;
@@ -7,6 +11,7 @@ body {
 
 body {
   padding: 1.5rem;
+  font-family: var(--font);
 }
 
 a {
@@ -14,7 +19,6 @@ a {
 }
 
 .wordmark {
-  font-family: "Apple Chancery", cursive;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1;
