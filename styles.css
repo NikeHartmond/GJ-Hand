@@ -85,7 +85,3 @@ p {
 .slider img.is-active {
   display: block;
 }
-
-.slider-counter {
-  margin: 0 0 0.5rem;
-}

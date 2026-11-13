@@ -64,15 +64,11 @@
 
       box.classList.add('slider');
       var index = 0;
-      var counter = document.createElement('p');
-      counter.className = 'slider-counter';
-      box.after(counter);
 
       function show(i) {
         index = (i + imgs.length) % imgs.length;
         imgs.forEach(function (img, n) { img.classList.toggle('is-active', n === index); });
-        counter.textContent = (index + 1) + ' / ' + imgs.length;
-      }
+        }
 
       box.addEventListener('click', function (e) {
         var rect = box.getBoundingClientRect();
