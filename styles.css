@@ -35,17 +35,16 @@ p {
 }
 
 .work {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .work-title {
-  margin: 0 0 0.5rem;
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-style: italic;
 }
 
 .work-info {
-  max-width: 40rem;
+  max-width: none;
+  margin: 0;
 }
 
 .work-images {
@@ -60,4 +59,8 @@ p {
   width: 100%;
   max-width: 60rem;
   height: auto;
+}
+
+.work-images:not(:has(img)) {
+  display: none;
 }
