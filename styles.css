@@ -58,7 +58,9 @@ p {
   display: block;
   width: 100%;
   max-width: 60rem;
+  aspect-ratio: 3 / 2;
   height: auto;
+  object-fit: cover;
 }
 
 .work-images:not(:has(img)) {
