@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+}
+
+body {
+  padding: 1.5rem;
+}
+
+a {
+  color: #000000;
+}
+
+.wordmark {
+  font-family: "Apple Chancery", cursive;
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 1;
+  text-decoration: none;
+}
+
+p {
+  max-width: 40rem;
+  margin: 0 0 1rem;
+}
