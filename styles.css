@@ -73,8 +73,17 @@ p {
   -webkit-user-select: none;
 }
 
-.slider img[hidden] {
+/* Without JavaScript only the first image shows. */
+.work-images img:not(:first-child) {
   display: none;
+}
+
+.slider img {
+  display: none;
+}
+
+.slider img.is-active {
+  display: block;
 }
 
 .slider-counter {
