@@ -85,3 +85,10 @@ p {
 .slider img.is-active {
   display: block;
 }
+
+.wordmark .hand {
+  display: inline-block;
+  height: 1.2em;
+  width: auto;
+  vertical-align: -0.25em;
+}
